@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sachin Rajput - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <button class="theme-toggle" onclick="toggleTheme()" aria-label="Toggle theme">🌓</button>
+
+  <header>
+    <div class="container header-box">
+      <img src="profile.jpg" class="profile-img" alt="Sachin Photo">
+      <div class="header-text">
+        <h1>Sachin Rajput</h1>
+        <p class="subtitle">Full Stack Developer • Data Science Enthusiast • IoT Developer</p>
+        <p class="contact"><strong>Phone:</strong> +91 7875167812 &nbsp; | &nbsp; <strong>Email:</strong> sachinrajput722446@gmail.com</p>
+        <p class="links"><a href="https://github.com/SachinRajput2001" target="_blank">GitHub</a> • <a href="https://linkedin.com/in/sachin1931" target="_blank">LinkedIn</a></p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>I am a dedicated IT professional passionate about Web Development, Data Science, and IoT.
+         Skilled in creating impactful software solutions with strong analytical and problem-solving abilities.</p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <div class="card"><h3>Task Manager Web App</h3><p>Frontend app using HTML/CSS/JS with LocalStorage, priority tags, and theme toggle.</p></div>
+      <div class="card"><h3>Customer Churn Prediction</h3><p>End-to-end ML pipeline in Python: preprocessing, feature engineering, Logistic Regression & Random Forest, model evaluation, and achieved ~85% accuracy.</p></div>
+      <div class="card"><h3>Bridge Learn (Kotlin)</h3><p>Android app for learning Physics & Chemistry with quizzes and simulations.</p></div>
+      <div class="card"><h3>IoT Smart Parking</h3><p>IoT system for automated parking with live slot availability and web/mobile access.</p></div>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul class="skills">
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python, Data Science, Machine Learning</li>
+        <li>MySQL, DBMS</li>
+        <li>IoT Systems, Embedded</li>
+        <li>AutoCAD, Communication</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Sachin Rajput</p>
+  </footer>
+
+<script>
+function toggleTheme() {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+}
+if (localStorage.getItem('theme') === 'dark') document.body.classList.add('dark');
+</script>
+</body>
+</html>
