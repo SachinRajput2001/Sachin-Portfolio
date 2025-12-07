@@ -1,7 +1,7 @@
 # 🌐 Sachin Rajput — Portfolio Website
 
 This is my personal portfolio website showcasing my skills, projects, education, and experience.  
-It includes a modern UI with **Dark Mode**, a responsive layout, and a matching design theme for my resume.
+It includes a modern UI with **Dark Mode**, a responsive layout.
 
 ---
 
