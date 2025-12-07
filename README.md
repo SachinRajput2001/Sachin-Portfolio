@@ -8,7 +8,7 @@ It includes a modern UI with **Dark Mode**, a responsive layout, and a matching 
 ## 🚀 Live Portfolio  
 Once hosted, the website will be available at:
 
-👉 **https://SachinRajput2001.github.io/sachin-portfolio**
+👉 **https://SachinRajput2001.github.io/Sachin-Portfolio**
 
 ---
 
